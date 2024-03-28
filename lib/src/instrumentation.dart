@@ -102,6 +102,7 @@ class Instrumentation {
 
     Map<String, dynamic> arguments = {
       "appKey": config.appKey,
+      "applicationName": config.applicationName,
       "loggingLevel": config.loggingLevel.index,
       "collectorURL": config.collectorURL,
       "screenshotURL": config.screenshotURL,
